@@ -1,0 +1,17 @@
+class CheckRange
+{
+public boolean inRange(int a,int b)
+{
+return ((a>=10&&a<=20)||(b>=10&&b<=20));
+}
+}
+class TestRange
+{
+public static void main(String args[])
+{
+CheckRange ob = new CheckRange();
+System.out.println(ob.inRange(20,19));
+System.out.println(ob.inRange(30,100));
+System.out.println(ob.inRange(11,17));
+}
+}
