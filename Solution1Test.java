@@ -1,3 +1,4 @@
+import java.io.*;
 class Solution1
 {
 public boolean sameLast(int a,int b)
